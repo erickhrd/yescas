@@ -1,0 +1,17 @@
+header.masthead {
+  padding-top: 10rem !important;
+  padding-bottom: calc(10rem - 4.5rem) !important;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/yescaspics/mainbackground.JPEG") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+  background-size: cover !important;
+
+}
+
+.logo{
+  max-width: 350px !important;
+  max-height: 70px !important;
+  justify-content: center !important;
+  align-content: center !important;
+}
