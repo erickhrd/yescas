@@ -45,6 +45,21 @@
   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
+  $('.portfolio2').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1]
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
   $('#portfolio').magnificPopup({
     delegate: 'a',
     type: 'image',
@@ -59,5 +74,75 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+
+  //Change of logo when scrolled
+  $(function(){
+    $(window).scroll(function(){
+        if($(window).width() >= 1024){
+        if($(this).scrollTop()>100){
+            $(".navbar .navbar-brand img").attr("src","assets/img/yescaspics/yescaslogo.png");
+        }
+
+        else{
+            $(".navbar .navbar-brand img").attr("src","assets/img/yescaspics/yescaslogo2.png");
+        }
+    }
+    });
+    
+    $(document).ready(function(){
+      $(window).resize(function(){location.reload();
+      }); //end of reload
+      if($(window).width() <= 1023){
+            $(".navbar .navbar-brand img").attr("src","assets/img/yescaspics/yescaslogo.png");
+          }
+        });
+
+        // Shuffle js filter and masonry
+  var containerEl = document.querySelector('.shuffle-wrapper');
+  if (containerEl) {
+    var Shuffle = window.Shuffle;
+    var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
+      itemSelector: '.shuffle-item',
+      buffer: 1
+    });
+
+    jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
+      var input = evt.currentTarget;
+      if (input.checked) {
+        myShuffle.filter(input.value);
+      }
+    });
+  }
+  
+      });
+
+      $('#item2').click(function(){
+            $(".item2").removeClass("item2").addClass("item2-more");        
+       }); 
+       
+       $('#item3').click(function(){
+        $(".item3").removeClass("item3").addClass("item3-more");        
+   });  
+
+   $('#item4').click(function(){
+    $(".item4").removeClass("item4").addClass("item4-more");        
+    });  
+
+    $('#item5').click(function(){
+      $(".item5").removeClass("item5").addClass("item5-more");        
+    });  
+
+    $('#item6').click(function(){
+      $(".item6").removeClass("item6").addClass("item6-more");        
+    });  
+
+    $('#item7').click(function(){
+      $(".item7").removeClass("item7").addClass("item7-more");        
+    });  
+
+    $('#item8').click(function(){
+      $(".item8").removeClass("item8").addClass("item8-more");        
+    }); 
 
 })(jQuery); // End of use strict

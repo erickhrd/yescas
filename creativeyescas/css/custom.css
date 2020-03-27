@@ -1,3 +1,32 @@
+.bg-primary, .btn-primary, .portfolio-box-caption  {
+  background-color:#ff0000d2 !important;
+}
+
+.btn-primary:hover{
+  color: #ff0000d2 !important;
+  background-color: #ffffff !important;
+  border: 2px solid #ff0000d2 !important;
+
+}
+
+.portfolio-box-caption:hover  {
+  opacity: 0.8 !important;
+}
+
+
+.nav-link:hover {
+  color: #ff0000d2 !important;
+}
+
+.btn-primary {
+  border-color: #ff0000d2 !important;
+}
+
+hr.divider{
+  border-color: #ff0000d2 !important;
+}
+
+
 header.masthead {
   padding-top: 10rem !important;
   padding-bottom: calc(10rem - 4.5rem) !important;
@@ -15,3 +44,201 @@ header.masthead {
   justify-content: center !important;
   align-content: center !important;
 }
+
+#contact{
+  max-height: 400px !important;
+}
+
+.works-section {
+  padding: 4rem 0 0 0 !important;
+}
+
+.page-section{
+  padding: 4rem 0 !important;
+}
+
+.img-display{
+  width: 80% !important;
+}
+
+.controls {
+   font-size: 70px !important;
+   color: #ffffff !important;
+  
+  }
+
+
+  .menu-item {
+    padding: 15px;
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu-item img {
+    margin-right: 20px;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px 0px rgba(111, 102, 88, 0.15);
+  }
+  
+  .menu-item h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .menu-item span {
+    font-weight: 600;
+    color: #e7272d;
+  }
+  
+  .text-sm {
+    font-size: 14px;
+  }
+  
+  .menu-item2 {
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    box-shadow: 0px 4px 8px 0px rgba(111, 102, 88, 0.15);
+  }
+  
+  .menu-item2 img {
+    float: left;
+    margin-right: 30px;
+    width: 150px;
+    margin-bottom: 40px;
+  }
+  
+  .menu-item2 .food-info {
+    padding-left: 30px;
+  }
+  
+  .menu-item2 .food-info h4 {
+    font-size: 22px;
+  }
+  
+  .menu-item2 .food-info p {
+    margin-bottom: 0px;
+  }
+
+
+.item2 {
+  display: none;
+}
+.item2-more{
+display: block;
+}
+
+.item3 {
+  display: none;
+}
+.item3-more{
+display: block;
+}
+
+.item4 {
+  display: none;
+}
+.item4-more{
+display: block;
+}
+
+.item5 {
+  display: none;
+}
+.item5-more{
+display: block;
+}
+
+.item6 {
+  display: none;
+}
+.item6-more{
+display: block;
+}
+
+.item7 {
+  display: none;
+}
+.item7-more{
+display: block;
+}
+
+.item8 {
+    display: none;
+}
+.item8-more{
+  display: block;
+}
+/* class to add to show the content - 'more' */
+
+
+
+/*FACEBOOK*/
+.btn.btn-facebook{background-color: #2479b6; border-color: #2479b6; -webkit-box-shadow: 0 3px 0 #1c6394; box-shadow: 0 3px 0 #1c6394;}
+.btn.btn-facebook:active{top: 3px; outline: none; -webkit-box-shadow: none; box-shadow: none;}
+.fa-facebook {
+color: white;
+}
+
+/*Pinterest*/
+.btn.btn-yelp{background-color: #c8232a; border-color: #c8232a; -webkit-box-shadow: 0 3px 0 #89171b; box-shadow: 0 3px 0 #89171b;}
+.btn.btn-yelp:active{ top: 3px; outline: none; -webkit-box-shadow: none; box-shadow: none;}
+.fa-yelp {
+  color: white;
+  }
+
+
+  @media screen and (max-width: 576px) {
+
+    iframe {
+    width: 288px;
+    height: 144px;
+    }
+    .mapouter{position:relative;text-align:right;height:144px;width:288px;}
+    .gmap_canvas {overflow:hidden;background:none!important;height:144px;width:288px;}
+
+    .text-location{
+      text-align: center !important;
+    }
+
+    #menu{
+      max-height: 1400px !important;
+    }
+ 
+  }
+
+  @media screen and (min-width:577px) and (max-width: 1023px) {
+
+    iframe {
+    width: 446px;
+    height: 223px;
+    }
+    .mapouter{position:relative;text-align:right;height:223px;width:446px;}
+    .gmap_canvas {overflow:hidden;background:none!important;height:223px;width:446px;}
+
+    .text-location{
+      margin-left: 15px !important;
+    }
+
+    #menu{
+      max-height: 900px !important;
+    }
+
+  }
+  
+  @media screen and (min-width: 1023px) {
+    iframe{
+    width: 512px;
+    height: 256px;
+    }
+    .mapouter{position:relative;text-align:right;height:256px;width:512px;}
+    .gmap_canvas {overflow:hidden;background:none!important;height:256px;width:512px;}
+
+    .text-location{
+      margin-left: 15px !important;
+    }
+
+    #menu{
+      max-height: 650px !important;
+    }
+
+  }
+

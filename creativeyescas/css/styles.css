@@ -10004,7 +10004,7 @@ hr.light {
   color: #f4623a;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #ff0000d2 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
