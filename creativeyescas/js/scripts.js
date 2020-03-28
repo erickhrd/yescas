@@ -90,13 +90,14 @@
     }
     });
     
-    $(document).ready(function(){
-      $(window).resize(function(){location.reload();
-      }); //end of reload
-      if($(window).width() <= 1023){
-            $(".navbar .navbar-brand img").attr("src","assets/img/yescaspics/yescaslogo.png");
-          }
-        });
+      $(function() {
+        if($(window).width() <= 1023){
+          $(".navbar .navbar-brand img").attr("src","assets/img/yescaspics/yescaslogo.png");
+            }
+          });
+        
+
+
 
         // Shuffle js filter and masonry
   var containerEl = document.querySelector('.shuffle-wrapper');

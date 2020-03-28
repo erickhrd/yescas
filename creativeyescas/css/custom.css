@@ -26,6 +26,12 @@ hr.divider{
   border-color: #ff0000d2 !important;
 }
 
+hr.divider2{
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #ffffff !important;
+}
+
 
 header.masthead {
   padding-top: 10rem !important;
