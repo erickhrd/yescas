@@ -208,6 +208,17 @@ color: white;
     #menu{
       max-height: 1400px !important;
     }
+
+    header.masthead {
+      padding-top: 10rem !important;
+      padding-bottom: calc(10rem - 4.5rem) !important;
+      background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/yescaspics/mainbackground-mobile.JPEG") !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-attachment: scroll !important;
+      background-size: cover !important;
+    
+    }
  
   }
 
@@ -221,7 +232,7 @@ color: white;
     .gmap_canvas {overflow:hidden;background:none!important;height:223px;width:446px;}
 
     .text-location{
-      margin-left: 15px !important;
+      margin-left: 9px !important;
     }
 
     #menu{
